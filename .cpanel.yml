@@ -2,5 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/mundored/public_html/
-    - /bin/rsync
     - /usr/local/cpanel/bin/sync-site --mundored.com.sv
